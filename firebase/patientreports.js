@@ -63,13 +63,9 @@ function displayreport(lab, time, url) {
     const div3 = document.createElement("div");
     const img1 = document.createElement("img");
     img1.src = "assets/eye.png";
-    img1.style.width = "30px";
-    img1.style.height = "30px";
     img1.style.paddingRight = "10px";
     const img2 = document.createElement("img");
     img2.src = "assets/download-circular-button.png";
-    img2.style.width = "30px";
-    img2.style.height = "30px";
     var downloadLink = document.createElement("a");
     downloadLink.appendChild(img2);
     img2.addEventListener('click',()=>{
@@ -98,6 +94,5 @@ function displayreport(lab, time, url) {
     img1.addEventListener("click", async () => {
         window.open(url, "_blank");
     });
-    // img2.addEventListener("click",()=>{});
     div1.style.cursor="pointer";
 }
