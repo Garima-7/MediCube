@@ -16,7 +16,7 @@ nav{
     gap:4rem;
     background-color: #E6851A;
     height:100vh;
-    width:4rem;
+    width:40px;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -32,7 +32,7 @@ nav{
     justify-content: center;
     align-items: center;
     /* height:auto; */
-    margin-left: 50px;
+    margin-left: 10px;
     padding:1rem;
 }
 #signup-wrapper img{
